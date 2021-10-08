@@ -1,0 +1,23 @@
+.button {
+    margin-top: 1rem;
+    text-align: center;
+    cursor: pointer;
+    font-family: $raleway;
+    font-size: $x-small;
+    font-weight: $raleway-bold;
+    width: 8rem;
+    height: 2.5rem;
+    box-sizing: border-box;
+    background-color: $white;
+    border: 0.1rem solid $smoky-black;
+
+
+    &:hover {
+        border: 0.1rem solid $quick-silver;
+    }
+
+    &:focus {
+        border: 0.1rem solid $quick-silver;
+        color: $quick-silver;
+    }
+}

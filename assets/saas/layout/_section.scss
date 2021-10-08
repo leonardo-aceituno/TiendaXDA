@@ -1,0 +1,113 @@
+.section {
+    box-sizing: border-box;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-startt;
+}
+
+
+// <!-- BOX TEXTOS -->
+.section__box-textos {
+
+    box-sizing: border-box;
+
+    .section__title {
+        font-family: $old;
+        font-weight: $old-bold;
+        font-size: $x-large ;
+    }
+
+    .section__paragraph {
+        font-family: $raleway;
+        //font-weight: $raleway-bold;
+        font-size: $small;
+        color: $granite-gray;
+    }
+
+}
+
+// <!-- BOX NEWSLETTER -->
+.section__box-newsletter {
+    box-sizing: border-box;
+    display: flex;
+
+    // <!-- BOX NEWSLETTER 1 -->
+    .box-newsletter__1 {
+        width: 90%;
+        box-sizing: border-box;
+
+    }
+
+    // <!-- BOX NEWSLETTER 2 -->
+    .box-newsletter__2 {
+        width: 10%;
+        box-sizing: border-box;
+        display: flex;
+
+        .box-newsletter__2--text {
+            writing-mode: vertical-rl;
+
+        }
+    }
+
+}
+
+@media (min-width: 768px) {  }
+
+@media (min-width: 992px) { 
+    .section {
+        box-sizing: border-box;
+        height: 100%;
+        display: flex;
+        justify-content: space-between;
+        flex-direction: column;
+    }
+    
+    
+    // <!-- BOX TEXTOS -->
+    .section__box-textos {
+    
+        box-sizing: border-box;
+    
+        .section__title {
+            font-family: $old;
+            font-weight: $old-bold;
+            font-size: $xxx-large;
+        }
+    
+        .section__paragraph {
+            font-family: $raleway;
+            font-weight: $raleway-bold;
+            font-size: $medium;
+            color: $granite-gray;
+        }
+    
+    }
+    
+    // <!-- BOX NEWSLETTER -->
+    .section__box-newsletter {
+        box-sizing: border-box;
+        display: flex;
+    
+        // <!-- BOX NEWSLETTER 1 -->
+        .box-newsletter__1 {
+            width: 90%;
+            box-sizing: border-box;
+    
+        }
+    
+        // <!-- BOX NEWSLETTER 2 -->
+        .box-newsletter__2 {
+            width: 10%;
+            box-sizing: border-box;
+            display: flex;
+    
+            .box-newsletter__2--text {
+                writing-mode: vertical-rl;
+    
+            }
+        }
+    
+    }
+ }

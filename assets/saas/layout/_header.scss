@@ -1,0 +1,45 @@
+.header__imagen {
+    box-sizing: border-box;
+    background-image: url(../img/imagen1.png);
+    width: 100%;
+    height: 30%;
+    background-repeat: no-repeat;
+    background-size: cover;
+
+}
+
+@media (min-width: 576px) {
+    .header__imagen {
+        box-sizing: border-box;
+        background-image: url(../img/imagen1.png);
+        width: 100%;
+        height: 80%;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+    }
+}
+
+@media (min-width: 768px) {
+    .header__imagen {
+        box-sizing: border-box;
+        background-image: url(../img/imagen1.png);
+        width: 100%;
+        height: 80%;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+    }
+}
+
+@media (min-width: 992px) {
+    .header__imagen {
+        box-sizing: border-box;
+        background-image: url(../img/imagen1.png);
+        width: 100%;
+        height: 100%;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+    }
+}
